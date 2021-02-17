@@ -1,0 +1,16 @@
+body {
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    color-stop(9%, #6e3f98),
+    to(#d6ab97)
+  );
+  background-attachment: fixed;
+  background-position: 50%;
+  background-size: cover;
+  color: #ffffff;
+}
+.App footer {
+  text-align: center;
+}

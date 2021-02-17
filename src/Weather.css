@@ -1,0 +1,47 @@
+.Weather {
+  border-radius: 6px;
+  box-shadow: 0 0 12px 0 rgb(0 0 0 / 20%);
+  background: hsla(0, 0%, 100%, 0.1) !important;
+  padding: 20px 33px 22px 27px;
+  margin: 20px auto;
+  max-width: 600px;
+}
+
+.Weather h1 {
+  font-weight: 600;
+  font-size: 1.25rem;
+  line-height: 1.5;
+}
+
+.Weather .currentDate {
+  font-size: 1.125rem;
+  font-weight: 400;
+  opacity: 0.65;
+}
+
+.Weather .degrees {
+  font-size: 3.5rem;
+  position: relative;
+  line-height: 0.96em;
+  font-weight: 500;
+}
+
+.Weather .about-weather {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.Weather .min-max {
+  text-align: center;
+  margin: auto;
+}
+
+.Weather .i {
+  font-size: 144px;
+}
+
+.Weather .min-max-deg {
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1.5;
+}
