@@ -9,7 +9,7 @@ export default function App() {
       </header>
       <footer>
         <p>
-          <a>Open-source code,</a> {" "}
+          <a href="https://github.com/EmilijaAceska/weather-react-app.git">Open-source code,</a> {" "}
           by Emilija Aceska
         </p>
       </footer>
