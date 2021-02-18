@@ -1,5 +1,6 @@
 import React from "react";
 import CurrentDate from "./CurrentDate";
+import Icon from "./Icon";
 
 export default function WeatherData(props){
   return (
@@ -19,7 +20,7 @@ export default function WeatherData(props){
               </ul>
             </div>
             <div className="col-6 min-max">
-              <img src={props.data.icon} alt="{props.data.description}" />
+              <Icon src={props.data.icon} alt={props.data.description}/>
               <p className="min-max-deg">
                 <span>{Math.round(props.data.temperatureMin)}° / </span>
                 <span>{Math.round(props.data.temperatureMax)}°</span>
