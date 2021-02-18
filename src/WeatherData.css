@@ -1,0 +1,8 @@
+.WeatherData {
+  border-radius: 6px;
+  box-shadow: 0 0 12px 0 rgb(0 0 0 / 20%);
+  background: hsla(0, 0%, 100%, 0.1) !important;
+  padding: 20px 33px 22px 27px;
+  margin: 20px auto;
+  max-width: 600px;
+}

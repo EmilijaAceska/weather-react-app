@@ -38,7 +38,6 @@ export default function Weather(props){
 
   if(weather.ready){
     return (
-      
      <div className="Weather">
         <form onSubmit={handleSubmit}>
           <div className="row m-auto">
@@ -55,6 +54,7 @@ export default function Weather(props){
         </form>
         
         <WeatherData data={weather} />
+
     </div>
   );
   } else{

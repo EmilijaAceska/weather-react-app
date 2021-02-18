@@ -1,18 +1,19 @@
 import React from "react";
 import CurrentDate from "./CurrentDate";
 import Icon from "./Icon";
+import Temperature from "./Temperature";
+import "./WeatherData.css";
 
 export default function WeatherData(props){
   return (
-    <div className="Weather Data">
+    <div className="WeatherData">
       <h1>{props.data.city}</h1>
           <CurrentDate date={props.data.date} />     
           <div className="row">
             <div className="col-6">
-              <p className="degrees">
-              <span>{Math.round(props.data.temperature)}</span>
-              <span>°C</span>
-              </p>
+              <span className="degrees">
+              <Temperature celsius={Math.round(props.data.temperature)} />
+              </span>
               <ul className="about-weather">
                 <li className="description text-capitalize">{props.data.description}</li>
                 <li className="humidity">Humidity: {props.data.humidity}{" "}%</li>
@@ -23,7 +24,7 @@ export default function WeatherData(props){
               <Icon src={props.data.icon} alt={props.data.description}/>
               <p className="min-max-deg">
                 <span>{Math.round(props.data.temperatureMin)}° / </span>
-                <span>{Math.round(props.data.temperatureMax)}°</span>
+                <span><strong>{Math.round(props.data.temperatureMax)}°</strong></span>
               </p>
             </div>
           </div>

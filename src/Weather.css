@@ -26,6 +26,18 @@
   font-weight: 500;
 }
 
+.Weather .cel-fah-deg {
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin-left: 5px;
+}
+
+.Weather .cel-fah-deg a {
+  color: #ffffff;
+  text-decoration: none;
+  cursor: pointer;
+}
+
 .Weather .about-weather {
   list-style-type: none;
   margin: 0;
@@ -43,6 +55,5 @@
 
 .Weather .min-max-deg {
   font-size: 1.5rem;
-  font-weight: 700;
   line-height: 1.5;
 }
