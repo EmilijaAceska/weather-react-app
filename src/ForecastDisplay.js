@@ -11,7 +11,7 @@ export default function ForecastDisplay(props){
   function temperature(){
     let temperatureMin=Math.round(props.data.main.temp_min);
     let temperatureMax=Math.round(props.data.main.temp_max);
-    return `${temperatureMin} / ${temperatureMax}`;
+    return `${temperatureMin}° / ${temperatureMax}°`;
   }
   return (
     <div className="ForecastDisplay col">
