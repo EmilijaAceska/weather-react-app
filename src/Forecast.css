@@ -6,6 +6,8 @@
   margin: 20px auto;
   max-width: 600px;
   text-align: center;
+  font-size: 1rem;
+  font-weight: 500;
 }
 
 .Forecast h3 {
